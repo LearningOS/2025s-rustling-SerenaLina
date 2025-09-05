@@ -71,7 +71,11 @@ impl<T> LinkedList<T> {
     }
 	pub fn merge(list_a:LinkedList<T>,list_b:LinkedList<T>) -> Self
 	{
-		//TODO
+		let linkedList = Self::new();
+        let mut ptr1 = list_a.start;
+        let mut ptr2 = list_b.start;
+        
+
 		Self {
             length: 0,
             start: None,
