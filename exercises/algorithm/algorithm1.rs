@@ -75,7 +75,7 @@ impl<T> LinkedList<T> {
         let mut ptr1 = list_a.start;
         let mut ptr2 = list_b.start;
         
-
+        
 		Self {
             length: 0,
             start: None,
